@@ -135,7 +135,7 @@ const App = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
               onClick={() => {
                 const link = document.createElement('a');
-                link.href = '/hyr.pdf';
+                link.href = '/胡耀儒-AI产品0809.pdf';
                 link.download = 'Brooklyn_Resume.pdf';
                 document.body.appendChild(link);
                 link.click();
@@ -277,7 +277,7 @@ const App = () => {
                   }}
                   onClick={() => {
                     const link = document.createElement('a');
-                    link.href = '/hyr.pdf';
+                    link.href = '/胡耀儒-AI产品0809.pdf';
                     link.download = 'Brooklyn_Resume.pdf';
                     document.body.appendChild(link);
                     link.click();
